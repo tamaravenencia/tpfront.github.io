@@ -1,0 +1,72 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background-color: #454647;
+    
+}
+
+.navbar.navbarBottom{
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+div.carousel-inner div.carousel-item::before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #0000008c;
+    content: "";
+}
+
+.carousel-caption {
+    position: absolute;
+    margin-left: 35%;
+    margin-right: -5%;
+    margin-bottom: 15%;
+ }
+
+.btn-success{
+    background-color: green;
+}
+
+span.small{
+    font-size: 12px;
+}
+
+span.small2{
+    font-size: 14px;
+}
+
+.card{
+    width: 300px;
+    margin-left: 1rem;
+    
+}
+
+.font-date{
+    background-color: #454647;
+    font-size: 13px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn.btn-green{
+    background: #91D32B;
+    color: white;
+}
